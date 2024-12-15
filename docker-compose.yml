@@ -1,0 +1,14 @@
+version: '3'
+
+
+services:
+  app:
+    build: .
+    command: '/app/entrypoint.sh'
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+

@@ -1,0 +1,17 @@
+asgiref==3.4.1
+backports.zoneinfo==0.2.1
+Django==3.2.25
+djangorestframework==3.15.1
+djangorestframework-simplejwt==4.4.0
+drf-yasg==1.21.8
+importlib-resources==5.4.0
+inflection==0.5.1
+packaging==21.3
+PyJWT==1.7.1
+pyparsing==3.1.4
+pytz==2024.2
+PyYAML==6.0.1
+sqlparse==0.4.4
+typing_extensions==4.1.1
+uritemplate==4.1.1
+zipp==3.6.0
